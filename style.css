@@ -1,0 +1,34 @@
+---
+
+## 🎨 **ARCHIVO BONUS: `assets/style.css`** (opcional)
+
+```css
+/* Estilos personalizados para el dashboard */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.dash-table-container {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.dash-graph {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Animaciones suaves */
+.dash-graph:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .dash-graph {
+        height: 400px !important;
+    }
+}
