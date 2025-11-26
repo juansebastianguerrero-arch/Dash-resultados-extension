@@ -11,7 +11,7 @@ Demostrar con datos reales si la extensión **Case Counter Pro** mejora:
 
 ---
 
-## 🚀 Instalación
+## 🚀 Instalación Local
 
 ### 1. Clonar el repositorio
 ```bash
